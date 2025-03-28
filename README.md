@@ -6,7 +6,9 @@ En este repositorio se encuentra el proyecto de HTML realizado por los estudiant
 
 | Archivos | Contenidos |
 |--|--|
-| Main |https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_Python_SaavedraMaria-DiazSara/blob/master/main.py |
+| index |https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_HTML_S1_SaavedraMaria-VargasJuan/blob/master/index.html |
+| style |https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_HTML_S1_SaavedraMaria-VargasJuan/tree/master/style|
+
 
 # **Instalación**
 
