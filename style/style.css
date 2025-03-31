@@ -1,1 +1,166 @@
     /*CSSS de la Pagina de inicio (INDEX)*/
+ @font-face {
+   font-family: 'regular';
+    src: url(../fuentes/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: 'ligth';
+    src: url(../fuentes/MyriadPro-Light.otf);
+}
+body{
+    background-color: black;
+}
+.Login__background--BackgroundImage{
+    position: relative;
+    height: 74vw;
+    top: -2vw;
+    left: -1vw;
+}
+.Login__background--Logo{
+    position: relative;
+    height: 10vw;
+    top: -53vw;
+    left: 45vw;
+    animation-name: Logo1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes Logo1{
+    1%, 20%{
+        opacity: 1;
+    }
+    41%, 60%{
+        opacity: 0;
+    }
+    81%, 100%{
+        opacity: 1;
+    }
+}
+.Login__frontpart--section1{
+    position: relative;
+    height: 50vw;
+    width: 60vw;
+    background-color: white;
+    top:-82vw;
+    left:21vw;
+    border-radius: 8%;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
+}
+@keyframes fond{
+    1%, 45%{
+        opacity: 0;
+    }
+    46%, 100%{
+        opacity: 1;
+    }
+}
+.Login__frontpart--LogoK{
+    position: relative;
+    top: -130vw;
+    left: 48vw;
+    height: 7vw;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
+}
+.Login__frontpart--Bienvenido{
+    position: relative;
+    top: -130vw;
+    right: -36vw;
+    font-family: 'regular';
+    font-size: 2vw;
+    color: black;
+    width: 30vw;
+    text-align: center;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
+}
+.Login__frontpart--ingresa{
+    position: relative;
+    top: -130vw;
+    right: -34vw;
+    font-family: 'ligth';
+    font-size: 1.3vw;
+    color: black;
+    width: 35vw;
+    text-align: center;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
+}
+
+.Login__frontpart--registro{
+    position: relative;
+    top: -131vw;
+    right: -30vw;
+    font-family: 'ligth';
+    font-size: 1.7vw;
+    color: black;
+    width: 30vw;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
+}
+.usuario{
+    width:40vw;
+    border-color: black;
+    height: 2vw;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
+}
+.contraseña{
+    width:40vw;
+    border-color: black;
+    height: 2vw;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
+}
+.Login__frontpart--ingresar{
+    position: relative;
+    top: -128vw;
+    right: -38vw;
+    font-family: 'regular';
+    font-size: 2vw;
+    color: white;
+    width: 25vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #ff6f2c;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
+}
+.Login__frontpart--problemas{
+    position: relative;
+    top: -127vw;
+    right: -28vw;
+    font-family: 'ligth';
+    font-size: 1.1vw;
+    color: black;
+    width: 45vw;
+    text-align: center;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
+}
