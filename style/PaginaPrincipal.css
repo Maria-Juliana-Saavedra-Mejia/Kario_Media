@@ -1,1 +1,123 @@
     /*CSSS de la Pagina Principal*/
+    
+@font-face {
+   font-family: 'regular';
+    src: url(../fuentes/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: 'ligth';
+    src: url(../fuentes/MyriadPro-Light.otf);
+}
+
+body{
+    background-color: black;
+}
+
+.Login__frontpart--section1{
+    position: relative;
+    height: 40vw;
+    width: 60vw;
+    background-color: white;
+    top:-77vw;
+    left:21vw;
+    border-radius: 8%;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-duration: 7s;
+}
+.Login__frontpart--LogoK{
+    position: relative;
+    top: -114vw;
+    left: 47.5vw;
+    height: 9vw;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-duration: 7s;
+}
+.Login__frontpart--bienvenido{
+    position: relative;
+    top: -115vw;
+    left: 36vw;
+    font-family: 'regular';
+    font-size: 3.1vw;
+    color: black;
+    width: 30vw;
+    text-align: center;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-duration: 7s;
+}
+.Login__frontpart--fotoPerfi{
+    position: relative;
+    top: -97vw;
+    left: 37vw;
+    height: 11vw;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-duration: 7s;
+}
+.Login__frontpart--nombre{
+    position: relative;
+    top: -107vw;
+    left: 27vw;
+    font-family: 'regular';
+    font-size: 3.1vw;
+    color: black;
+    width: 50vw;
+    text-align: center;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-duration: 7s;
+}
+.Login__frontpart--usuario{
+    position: relative;
+    top: -109vw;
+    right: -29vw;
+    font-family: 'ligth';
+    font-size: 1.3vw;
+    color: black;
+    width: 45vw;
+    text-align: center;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-duration: 7s;
+}
+@keyframes fond {
+    1%,100%{
+        opacity: 1;
+    }
+}
+.Login__background--BackgroundImage{
+    position: relative;
+    height: 74vw;
+    top: -2vw;
+    left: -1vw;
+}
+.Login__background--Logo{
+    position: relative;
+    height: 10vw;
+    top: -53vw;
+    left: 45vw;
+    animation-name: Logo1;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    opacity: 0;
+}
+@keyframes Logo1{
+    1%, 20%{
+        opacity: 1;
+    }
+    41%, 60%{
+        opacity: 0;
+    }
+    81%, 100%{
+        opacity: 1;
+    }
+}

@@ -11,27 +11,25 @@
 <body>
 <div class="Login">
     <div class="Login__background">
-        <img class="Login__background--BackgroundImage" src="./img/fondoIndex.png"/>
-        <img class="Login__background--Logo" src="./img/logoindexfondo.svg"/>
+        <img class="Login__background--BackgroundImage" src="./img/fondoIndex.png"/> <!-- fondo de figuras de la parte de atras  -->
+        <img class="Login__background--Logo" src="./img/logoindexfondo.svg"/> <!-- logo con animacion de opacity -->
         
     </div>
     <div class="Login__frontpart">
-        <div class="Login__frontpart--section1"></div>
-        <img class="Login__frontpart--LogoK" src="./img/LogoconNombre.svg"/>
-        <div class="Login__frontpart--Bienvenido"><p>Bienvenido al panel digital de KARIO Media</p></div>
-        <div class="Login__frontpart--ingresa"><p>Por favor ingresa los siguientes datos para ingresar a la plataforma</p></div>
-        <form name="Login__frontpart--registro" method="post" action="" class="Login__frontpart--registro">
+        <div class="Login__frontpart--section1"></div> <!-- cuadro blanco -->
+        <img class="Login__frontpart--LogoK" src="./img/LogoconNombre.svg"/> <!-- logo en la parte de arriba de cuadro  -->
+        <div class="Login__frontpart--Bienvenido"><p>Bienvenido al panel digital de KARIO Media</p></div> <!-- Texto de bienvenida  -->
+        <div class="Login__frontpart--ingresa"><p>Por favor ingresa los siguientes datos para ingresar a la plataforma</p></div> <!-- texto ingrese datos  -->
+        <form name="Login__frontpart--registro" method="post" action="" class="Login__frontpart--registro"> <!-- Formulario para poder ingresar los primeros datos -->
             <p>Usuario</p>
-           <input type="text" name="username"  maxlength="50" class="usuario"/>
+           <input type="text" name="username"  style="font-size: 1.5vw;" class="usuario"/><!-- seccion para escribir el ususario -->
            <p>Contraseña</p>
-           <input type="text" name="lastname"  maxlength="50" class="contraseña"/>
+           <input type="text" name="lastname"  style="font-size: 1.5vw;" maxlength="50" class="contraseña"/><!-- seccion para escribir la contraseña -->
         </form>
-        <div class="Login__frontpart--ingresar"><a>Ingresar al panel</a></div>
+        <div class="Login__frontpart--ingresar"><a class="Login__frontpart--ingresarTexto" href="./pages/PaginaPrincipal.html">Ingresar al panel</a></div> <!-- link para pasar a la otra pagina -->
         <div class="Login__frontpart--problemas"><p>Tienes problemas para ingresar? Por favor contactarse con asistencia técnica lo más pronto posible</p></div>
         
     </div>
-
-
 
 </div>
 </body>

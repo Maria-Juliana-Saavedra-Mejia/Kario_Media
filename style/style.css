@@ -7,6 +7,7 @@
     font-family: 'ligth';
     src: url(../fuentes/MyriadPro-Light.otf);
 }
+
 body{
     background-color: black;
 }
@@ -112,20 +113,30 @@ body{
 .usuario{
     width:40vw;
     border-color: black;
-    height: 2vw;
+    height: 2.5vw;
     animation-name: fond;
     animation-iteration-count: 1;
     opacity: 1;
     animation-duration: 7s;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
 }
+
 .contraseña{
+    position: relative;
     width:40vw;
     border-color: black;
-    height: 2vw;
+    height: 2.5vw;
     animation-name: fond;
     animation-iteration-count: 1;
     opacity: 1;
     animation-duration: 7s;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
 }
 .Login__frontpart--ingresar{
     position: relative;
@@ -149,6 +160,13 @@ body{
     animation-iteration-count: 1;
     opacity: 1;
     animation-duration: 7s;
+
+}
+.Login__frontpart--ingresarTexto{
+    font-family: 'regular';
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
 }
 .Login__frontpart--problemas{
     position: relative;
@@ -164,3 +182,4 @@ body{
     opacity: 1;
     animation-duration: 7s;
 }
+
