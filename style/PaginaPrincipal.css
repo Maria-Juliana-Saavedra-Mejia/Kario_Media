@@ -25,6 +25,9 @@ body{
     border: 0.001vw solid black;
     top:-151vw;
     left:-0.4vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--añadir{
     position: relative;
@@ -33,6 +36,9 @@ body{
     color: black;
     top: -4.5vw;
     left: 10vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--refrescar{
     position: relative;
@@ -41,6 +47,9 @@ body{
     color: black;
     top: -7.8vw;
     left: 20vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--eliminar{
     position: relative;
@@ -49,6 +58,9 @@ body{
     color: black;
     top: -11.1vw;
     left: 32vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--reportar{
     position: relative;
@@ -57,6 +69,9 @@ body{
     color: black;
     top: -14.4vw;
     left: 63vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--ayuda{
     position: relative;
@@ -65,60 +80,90 @@ body{
     color: black;
     top: -17.8vw;
     left: 75vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--logo1{
     position: relative;
     height: 3vw;
     top: -22.5vw;
     left: 47.5vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--bell{
     position: relative;
     height: 1.5vw;
     top: -23vw;
     left: 86vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--bug{
     position: relative;
     height: 1.6vw;
     top: -23.4vw;
     left: 55.5vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--mas{
     position: relative;
     height: 1.6vw;
     top: -23.4vw;
     left: 1vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--fotopedro{
     position: relative;
     height: 3.8vw;
     top: -22.2vw;
     left: 83vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--rueda{
     position: relative;
     height: 1.5vw;
     top: -23vw;
     left: 74vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--pregunta{
     position: relative;
     height: 1.6vw;
     top: -23.4vw;
     left: 58vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--load{
     position: relative;
     height: 1.5vw;
     top: -23.4vw;
     left: 1.5vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__BarraOpciones--basura{
     position: relative;
     height: 1.6vw;
     top: -23.4vw;
     left: 11.5vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 /*#################################################################################*/
 /*############################ Texto Bajo la Barra ################################*/
@@ -130,6 +175,9 @@ body{
     font-size: 2.4vw;
     top: -152vw;
     left: 39vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Login__Textos--aqui{
     position: relative;
@@ -138,6 +186,9 @@ body{
     font-size: 1.5vw;
     top: -154vw;
     left: 23vw; 
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 /*################################################################################*/
 /*#######################       Tabla de trabajos     ############################*/
@@ -152,7 +203,11 @@ body{
     top: -156vw;
     left: 5vw;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
+
 .Aspectos{
     align-items: center;
     display: grid;
@@ -162,6 +217,9 @@ body{
     font-family: 'regular';
     font-size: 1vw;
     text-align: center;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .Modelado3D{
     align-items: center;
@@ -180,6 +238,9 @@ body{
     text-align: center;
     top: -2vw;
     height: 1.9vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 
 .FincaGaleon{
@@ -199,6 +260,9 @@ body{
     text-align: center;
     top: -2.9vw;
     height: 1.9vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .colegio{
     align-items: center;
@@ -217,6 +281,9 @@ body{
     text-align: center;
     top: -3.8vw;
     height: 1.9vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .electrodomesticos{
     align-items: center;
@@ -235,6 +302,9 @@ body{
     text-align: center;
     top: -4.7vw;
     height: 1.9vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .estrato2{
     align-items: center;
@@ -253,6 +323,9 @@ body{
     text-align: center;
     top: -5.6vw;
     height: 1.9vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .jovenes{
     align-items: center;
@@ -271,6 +344,9 @@ body{
     text-align: center;
     top: -6.5vw;
     height: 1.9vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 /*################################################################################*/
 /*################################## Boton Añadir #################################*/
@@ -297,6 +373,9 @@ body{
     animation-iteration-count: 1;
     opacity: 1;
     animation-duration: 7s;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 
 }
 .Añadir--AñadirTexto{
@@ -304,6 +383,9 @@ body{
     font-size: 1.5vw;
     color: white;
     text-decoration: none;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 /*################################################################################*/
 /*#######################       lineas de indicadores    ############################*/
@@ -312,31 +394,54 @@ body{
     position: relative;
     top: -193.5vw;
     left: 93vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .menu2{
     position: relative;
     top: -188.5vw;
     left: 91vw; 
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .menu3{
     position: relative;
     top: -184vw;
     left: 89vw; 
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .menu4{
     position: relative;
     top: -179.5vw;
     left: 87vw;   
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
 }
 .menu5{
     position: relative;
     top: -174.5vw;
-    left: 85vw;  
+    left: 85vw;
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;   
 }
 .menu6{
     position: relative;
     top: -170vw;
-    left: 83vw;   
+    left: 83vw; 
+    animation-name: real;
+    animation-iteration-count: 1;
+    animation-duration: 7s;
+}
+@keyframes real {
+    1%,100%{
+        opacity:0;
+    }
 }
 /*################################################################################*/
 /*################### Animacion inicio de sesion ####################################*/
@@ -417,7 +522,7 @@ body{
     opacity: 0;
     animation-duration: 4s;
 }
-@keyframes -fond {
+@keyframes fond {
     1%,100%{
         opacity: 1;
         background-color: white;
@@ -433,7 +538,7 @@ body{
     opacity: 0;
     animation-duration: 7s;
 }
-@keyframes -back{
+@keyframes back{
     1%,100%{
         opacity: 1;
         background-color: black;
@@ -451,7 +556,7 @@ body{
     animation-iteration-count: 1;
     opacity: 0;
 }
-@keyframes -Logo1{
+@keyframes Logo1{
     1%, 20%{
         opacity: 1;
         background-color: black;
@@ -466,4 +571,36 @@ body{
     }
 }
 /*################################################################################*/
+/*########################### circulos ########################*/
 /*################################################################################*/
+
+@keyframes rellenar {
+    to{
+        stroke-dasharray: var(--porcentaje) 100
+    }
+}
+.porcentaje{
+    position: relative;
+}
+.porcentaje span{
+    font-size: 0.9vw;
+    font-family: "pror";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+circle{
+    fill: none;
+    stroke: var(--color);
+    stroke-width: 0.2vw;
+    stroke-dasharray: 0 100;
+    transform: rotate(-90deg);
+    transform-origin: 50%;
+    stroke-linecap: round;
+    animation: rellenar 1s linear forwards;
+}
