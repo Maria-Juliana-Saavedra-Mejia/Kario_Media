@@ -1,4 +1,4 @@
-    /*CSSS de la Pagina Principal*/
+/*CSSS de la Pagina Principal*/
     
 @font-face {
    font-family: 'regular';
@@ -10,8 +10,118 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
+.Login__BarraOpciones{
+    position: relative;
+    height: 0.01vw;
+    width: 99.8vw;
+    background-color:black;
+    border: 0.1vw solid black;
+    top:-151vw;
+    left:-0.4vw;
+}
+.Login__BarraOpciones--añadir{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.5vw;
+    color: black;
+    top: -4.5vw;
+    left: 10vw;
+}
+.Login__BarraOpciones--refrescar{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.5vw;
+    color: black;
+    top: -7.8vw;
+    left: 20vw;
+}
+.Login__BarraOpciones--eliminar{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.5vw;
+    color: black;
+    top: -11.1vw;
+    left: 32vw;
+}
+.Login__BarraOpciones--reportar{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.5vw;
+    color: black;
+    top: -14.4vw;
+    left: 63vw;
+}
+.Login__BarraOpciones--ayuda{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.5vw;
+    color: black;
+    top: -17.8vw;
+    left: 75vw;
+}
+.Login__BarraOpciones--logo1{
+    position: relative;
+    height: 3vw;
+    top: -22.5vw;
+    left: 47.5vw;
+}
+.Login__BarraOpciones--bell{
+    position: relative;
+    height: 1.5vw;
+    top: -23vw;
+    left: 86vw;
+}
+.Login__BarraOpciones--bug{
+    position: relative;
+    height: 2.5vw;
+    top: -23vw;
+    left: 55vw;
+}
+.Login__BarraOpciones--mas{
+    position: relative;
+    height: 2vw;
+    top: -23vw;
+    left: 0vw;
+}
+.Login__BarraOpciones--fotopedro{
+    position: relative;
+    height: 3.8vw;
+    top: -22vw;
+    left: 83vw;
+}
+.Login__BarraOpciones--rueda{
+    position: relative;
+    height: 1.5vw;
+    top: -23vw;
+    left: 72vw;
+}
+.Login__BarraOpciones--pregunta{
+    position: relative;
+    height: 2.1vw;
+    top: -23vw;
+    left: 56vw;
+}
+.Login__BarraOpciones--load{
+    position: relative;
+    height: 1.8vw;
+    top: -23vw;
+    left: -1vw;
+}
+.Login__BarraOpciones--basura{
+    position: relative;
+    height: 2.1vw;
+    top: -23vw;
+    left: 8vw;
+}
+
+
+
+
+
+
+
 
 .Login__frontpart--section1{
     position: relative;
@@ -21,20 +131,20 @@ body{
     top:-77vw;
     left:21vw;
     border-radius: 8%;
-    animation-name: fond;
+    animation-name: -fond;
     animation-iteration-count: 1;
     opacity: 0;
-    animation-duration: 7s;
+    animation-duration: 4s;
 }
 .Login__frontpart--LogoK{
     position: relative;
     top: -114vw;
     left: 47.5vw;
     height: 9vw;
-    animation-name: fond;
+    animation-name: -fond;
     animation-iteration-count: 1;
     opacity: 0;
-    animation-duration: 7s;
+    animation-duration: 4s;
 }
 .Login__frontpart--bienvenido{
     position: relative;
@@ -45,20 +155,20 @@ body{
     color: black;
     width: 30vw;
     text-align: center;
-    animation-name: fond;
+    animation-name: -fond;
     animation-iteration-count: 1;
     opacity: 0;
-    animation-duration: 7s;
+    animation-duration: 4s;
 }
 .Login__frontpart--fotoPerfi{
     position: relative;
     top: -97vw;
     left: 37vw;
     height: 11vw;
-    animation-name: fond;
+    animation-name: -fond;
     animation-iteration-count: 1;
     opacity: 0;
-    animation-duration: 7s;
+    animation-duration: 4s;
 }
 .Login__frontpart--nombre{
     position: relative;
@@ -69,10 +179,10 @@ body{
     color: black;
     width: 50vw;
     text-align: center;
-    animation-name: fond;
+    animation-name: -fond;
     animation-iteration-count: 1;
     opacity: 0;
-    animation-duration: 7s;
+    animation-duration: 4s;
 }
 .Login__frontpart--usuario{
     position: relative;
@@ -83,14 +193,15 @@ body{
     color: black;
     width: 45vw;
     text-align: center;
-    animation-name: fond;
+    animation-name: -fond;
     animation-iteration-count: 1;
     opacity: 0;
-    animation-duration: 7s;
+    animation-duration: 4s;
 }
 @keyframes fond {
     1%,100%{
         opacity: 1;
+        background-color: white;
     }
 }
 .Login__background--BackgroundImage{
@@ -98,14 +209,25 @@ body{
     height: 74vw;
     top: -2vw;
     left: -1vw;
+    animation-name: -back;
+    animation-iteration-count: 1;
+    opacity: 0;
+    animation-duration: 7s;
+}
+@keyframes back{
+    1%,100%{
+        opacity: 1;
+        background-color: black;
+    }
+
 }
 .Login__background--Logo{
     position: relative;
     height: 10vw;
     top: -53vw;
     left: 45vw;
-    animation-name: Logo1;
-    animation-delay: 7s;
+    animation-name: -Logo1;
+    animation-delay: 4s;
     animation-duration: 3s;
     animation-iteration-count: 1;
     opacity: 0;
@@ -113,11 +235,14 @@ body{
 @keyframes Logo1{
     1%, 20%{
         opacity: 1;
+        background-color: black;
     }
     41%, 60%{
         opacity: 0;
+        background-color: black;
     }
     81%, 100%{
         opacity: 1;
+        background-color: black;
     }
 }
