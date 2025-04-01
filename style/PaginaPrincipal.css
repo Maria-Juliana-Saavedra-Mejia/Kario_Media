@@ -15,6 +15,7 @@ body{
     background-color: white;
 }
 /*################################################################################*/
+/*############################ Barra En la parte superior ########################*/
 /*################################################################################*/
 .Login__BarraOpciones{
     position: relative;
@@ -79,15 +80,15 @@ body{
 }
 .Login__BarraOpciones--bug{
     position: relative;
-    height: 2.5vw;
-    top: -23vw;
-    left: 55vw;
+    height: 1.6vw;
+    top: -23.4vw;
+    left: 55.5vw;
 }
 .Login__BarraOpciones--mas{
     position: relative;
-    height: 2vw;
-    top: -23vw;
-    left: 0vw;
+    height: 1.6vw;
+    top: -23.4vw;
+    left: 1vw;
 }
 .Login__BarraOpciones--fotopedro{
     position: relative;
@@ -99,34 +100,35 @@ body{
     position: relative;
     height: 1.5vw;
     top: -23vw;
-    left: 72vw;
+    left: 74vw;
 }
 .Login__BarraOpciones--pregunta{
     position: relative;
-    height: 2.1vw;
-    top: -23vw;
-    left: 56vw;
+    height: 1.6vw;
+    top: -23.4vw;
+    left: 58vw;
 }
 .Login__BarraOpciones--load{
     position: relative;
-    height: 1.8vw;
-    top: -23vw;
-    left: -1vw;
+    height: 1.5vw;
+    top: -23.4vw;
+    left: 1.5vw;
 }
 .Login__BarraOpciones--basura{
     position: relative;
-    height: 2.1vw;
-    top: -23vw;
-    left: 8vw;
+    height: 1.6vw;
+    top: -23.4vw;
+    left: 11.5vw;
 }
-/*################################################################################*/
+/*#################################################################################*/
+/*############################ Texto Bajo la Barra ################################*/
 /*################################################################################*/
 .Login__Textos--panel{
     position: relative;
     font-family: 'regular';
     color: black;
     font-size: 2.4vw;
-    top: -150vw;
+    top: -152vw;
     left: 39vw;
 }
 .Login__Textos--aqui{
@@ -134,18 +136,211 @@ body{
     font-family: 'ligth';
     color: black;
     font-size: 1.5vw;
-    top: -152vw;
+    top: -154vw;
     left: 23vw; 
 }
 /*################################################################################*/
+/*#######################       Tabla de trabajos     ############################*/
 /*################################################################################*/
 
+.Login__TablaIndicadores{
+    align-items: center;
+    display: grid;
+    position: relative;
+    width: 87vw;
+    height: 43vw;
+    top: -156vw;
+    left: 5vw;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.Aspectos{
+    align-items: center;
+    display: grid;
+    position: relative;
+    padding: 1vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'regular';
+    font-size: 1vw;
+    text-align: center;
+}
+.Modelado3D{
+    align-items: center;
+    display: grid;
+    position: relative;
+    border: 0.1vw solid black;
+    margin: 0.1vw;
+    padding: 1vw;
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'ligth';
+    font-size: 1vw;
+    text-align: center;
+    top: -2vw;
+    height: 1.9vw;
+}
 
+.FincaGaleon{
+    align-items: center;
+    display: grid;
+    position: relative;
+    border: 0.1vw solid black;
+    margin: 0.1vw;
+    padding: 1vw;
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'ligth';
+    font-size: 1vw;
+    text-align: center;
+    top: -2.9vw;
+    height: 1.9vw;
+}
+.colegio{
+    align-items: center;
+    display: grid;
+    position: relative;
+    border: 0.1vw solid black;
+    margin: 0.1vw;
+    padding: 1vw;
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'ligth';
+    font-size: 1vw;
+    text-align: center;
+    top: -3.8vw;
+    height: 1.9vw;
+}
+.electrodomesticos{
+    align-items: center;
+    display: grid;
+    position: relative;
+    border: 0.1vw solid black;
+    margin: 0.1vw;
+    padding: 1vw;
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'ligth';
+    font-size: 1vw;
+    text-align: center;
+    top: -4.7vw;
+    height: 1.9vw;
+}
+.estrato2{
+    align-items: center;
+    display: grid;
+    position: relative;
+    border: 0.1vw solid black;
+    margin: 0.1vw;
+    padding: 1vw;
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'ligth';
+    font-size: 1vw;
+    text-align: center;
+    top: -5.6vw;
+    height: 1.9vw;
+}
+.jovenes{
+    align-items: center;
+    display: grid;
+    position: relative;
+    border: 0.1vw solid black;
+    margin: 0.1vw;
+    padding: 1vw;
+    border-top-left-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'ligth';
+    font-size: 1vw;
+    text-align: center;
+    top: -6.5vw;
+    height: 1.9vw;
+}
 /*################################################################################*/
+/*################################## Boton Añadir #################################*/
 /*################################################################################*/
+.Añadir{
+    position: relative;
+    top: -5vw;
+    right: -35vw;
+    font-family: 'regular';
+    font-size: 2vw;
+    color: white;
+    width: 20vw;
+    height: 4vw;
+    text-align: center;
+    background-color: #ff6f2c;
+    border-top-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+    border-bottom-left-radius: 3vw;
+    border-bottom-right-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fond;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-duration: 7s;
 
-
-
+}
+.Añadir--AñadirTexto{
+    font-family: 'regular';
+    font-size: 1.5vw;
+    color: white;
+    text-decoration: none;
+}
+/*################################################################################*/
+/*#######################       lineas de indicadores    ############################*/
+/*################################################################################*/
+.menu1{
+    position: relative;
+    top: -193.5vw;
+    left: 93vw;
+}
+.menu2{
+    position: relative;
+    top: -188.5vw;
+    left: 91vw; 
+}
+.menu3{
+    position: relative;
+    top: -184vw;
+    left: 89vw; 
+}
+.menu4{
+    position: relative;
+    top: -179.5vw;
+    left: 87vw;   
+}
+.menu5{
+    position: relative;
+    top: -174.5vw;
+    left: 85vw;  
+}
+.menu6{
+    position: relative;
+    top: -170vw;
+    left: 83vw;   
+}
+/*################################################################################*/
+/*################### Animacion inicio de sesion ####################################*/
+/*################################################################################*/
 
 .Login__frontpart--section1{
     position: relative;
@@ -155,7 +350,7 @@ body{
     top:-77vw;
     left:21vw;
     border-radius: 8%;
-    animation-name: -fond;
+    animation-name: fond;
     animation-iteration-count: 1;
     opacity: 0;
     animation-duration: 4s;
@@ -165,7 +360,7 @@ body{
     top: -114vw;
     left: 47.5vw;
     height: 9vw;
-    animation-name: -fond;
+    animation-name: fond;
     animation-iteration-count: 1;
     opacity: 0;
     animation-duration: 4s;
@@ -179,7 +374,7 @@ body{
     color: black;
     width: 30vw;
     text-align: center;
-    animation-name: -fond;
+    animation-name: fond;
     animation-iteration-count: 1;
     opacity: 0;
     animation-duration: 4s;
@@ -189,7 +384,7 @@ body{
     top: -97vw;
     left: 37vw;
     height: 11vw;
-    animation-name: -fond;
+    animation-name: fond;
     animation-iteration-count: 1;
     opacity: 0;
     animation-duration: 4s;
@@ -203,7 +398,7 @@ body{
     color: black;
     width: 50vw;
     text-align: center;
-    animation-name: -fond;
+    animation-name: fond;
     animation-iteration-count: 1;
     opacity: 0;
     animation-duration: 4s;
@@ -217,12 +412,12 @@ body{
     color: black;
     width: 45vw;
     text-align: center;
-    animation-name: -fond;
+    animation-name: fond;
     animation-iteration-count: 1;
     opacity: 0;
     animation-duration: 4s;
 }
-@keyframes fond {
+@keyframes -fond {
     1%,100%{
         opacity: 1;
         background-color: white;
@@ -233,12 +428,12 @@ body{
     height: 74vw;
     top: -2vw;
     left: -1vw;
-    animation-name: -back;
+    animation-name: back;
     animation-iteration-count: 1;
     opacity: 0;
     animation-duration: 7s;
 }
-@keyframes back{
+@keyframes -back{
     1%,100%{
         opacity: 1;
         background-color: black;
@@ -250,13 +445,13 @@ body{
     height: 10vw;
     top: -53vw;
     left: 45vw;
-    animation-name: -Logo1;
+    animation-name: Logo1;
     animation-delay: 4s;
     animation-duration: 3s;
     animation-iteration-count: 1;
     opacity: 0;
 }
-@keyframes Logo1{
+@keyframes -Logo1{
     1%, 20%{
         opacity: 1;
         background-color: black;
