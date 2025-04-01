@@ -237,7 +237,7 @@ body{
     font-size: 1vw;
     text-align: center;
     top: -2vw;
-    height: 1.9vw;
+    height: 2vw;
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -259,7 +259,7 @@ body{
     font-size: 1vw;
     text-align: center;
     top: -2.9vw;
-    height: 1.9vw;
+    height: 2vw;
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -280,7 +280,7 @@ body{
     font-size: 1vw;
     text-align: center;
     top: -3.8vw;
-    height: 1.9vw;
+    height: 2vw;
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -301,7 +301,7 @@ body{
     font-size: 1vw;
     text-align: center;
     top: -4.7vw;
-    height: 1.9vw;
+    height: 2vw;
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -322,7 +322,7 @@ body{
     font-size: 1vw;
     text-align: center;
     top: -5.6vw;
-    height: 1.9vw;
+    height: 2vw;
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -343,7 +343,7 @@ body{
     font-size: 1vw;
     text-align: center;
     top: -6.5vw;
-    height: 1.9vw;
+    height: 2vw;
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -559,15 +559,12 @@ body{
 @keyframes Logo1{
     1%, 20%{
         opacity: 1;
-        background-color: black;
     }
     41%, 60%{
         opacity: 0;
-        background-color: black;
     }
     81%, 100%{
         opacity: 1;
-        background-color: black;
     }
 }
 /*################################################################################*/
@@ -583,7 +580,7 @@ body{
     position: relative;
 }
 .porcentaje span{
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     font-family: "pror";
     position: absolute;
     top: 0%;
@@ -603,4 +600,5 @@ circle{
     transform-origin: 50%;
     stroke-linecap: round;
     animation: rellenar 1s linear forwards;
+    animation-delay: 7s;
 }
