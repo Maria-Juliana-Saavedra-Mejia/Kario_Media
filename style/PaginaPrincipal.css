@@ -13,6 +13,7 @@
 /*################################################################################*/
 body{
     background-color: white;
+    overflow: hidden;
 }
 /*################################################################################*/
 /*############################ Barra En la parte superior ########################*/
@@ -57,7 +58,7 @@ body{
     font-size: 1.5vw;
     color: black;
     top: -11.1vw;
-    left: 32vw;
+    left: 31.2vw;
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -378,6 +379,9 @@ body{
     animation-duration: 7s;
 
 }
+.Añadir:hover{
+    background-color: red;
+}
 .Añadir--AñadirTexto{
     font-family: 'regular';
     font-size: 1.5vw;
@@ -401,7 +405,7 @@ body{
 .menu2{
     position: relative;
     top: -188.5vw;
-    left: 91vw; 
+    left: 90.9vw; 
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -409,7 +413,7 @@ body{
 .menu3{
     position: relative;
     top: -184vw;
-    left: 89vw; 
+    left: 88.9vw; 
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -417,7 +421,7 @@ body{
 .menu4{
     position: relative;
     top: -179.5vw;
-    left: 87vw;   
+    left: 86.9vw;   
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;
@@ -425,7 +429,7 @@ body{
 .menu5{
     position: relative;
     top: -174.5vw;
-    left: 85vw;
+    left: 84.9vw;
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;   
@@ -433,7 +437,7 @@ body{
 .menu6{
     position: relative;
     top: -170vw;
-    left: 83vw; 
+    left: 82.9vw; 
     animation-name: real;
     animation-iteration-count: 1;
     animation-duration: 7s;

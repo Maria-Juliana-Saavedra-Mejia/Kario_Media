@@ -8,8 +8,14 @@
     src: url(../fuentes/MyriadPro-Light.otf);
 }
 
-body{
+body, html{
     background-color: black;
+    max-width: 1920px;
+    max-height: 1vw;
+}
+
+body {
+    overflow: hidden;
 }
 .Login__background--BackgroundImage{
     position: relative;

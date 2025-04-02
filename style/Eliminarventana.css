@@ -1,4 +1,4 @@
-/*CSS Seccion eliminar*/
+/*CSS Seccion eliminar Ventana emergente*/
 @font-face {
     font-family: 'regular';
      src: url(../fuentes/MYRIADPRO-REGULAR.OTF);
@@ -48,7 +48,7 @@
      font-size: 1.5vw;
      color: black;
      top: -11.1vw;
-     left: 31vw;
+     left: 31.2vw;
  }
  .Login__BarraOpciones--reportar{
      position: relative;
@@ -392,11 +392,94 @@ circle{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 1vw;
-    border-top-right-radius: 1vw;
-    border-bottom-left-radius: 1vw;
-    border-bottom-right-radius: 1vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
 }
 .boton:hover {
     background-color: red;
+}
+/*################################################################################*/
+/*########################### Seccion de confirmacion  ########################*/
+/*#########################################################*/
+.seccion2{
+    position: relative;
+    top: -60vw;
+    left: -1vw;
+    width: 101vw;
+    height: 90vw;
+    background-color: black;
+    opacity: 0.7;
+
+}
+.seccion2__Cuadro2{
+    position: relative;
+    top: -140vw;
+    left: 25vw;
+    width: 50vw;
+    height: 30vw;
+    background-color: white;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+.seccion2__Cuadro2--warning{
+    position: relative;
+    top: -168vw;
+    left: 27vw;
+    width: 3vw;
+}
+.seccion2__Cuadro2--warning2{
+    position: relative;
+    top: -166vw;
+    left: 46vw;
+    width: 8vw;  
+}
+.seccion2__Cuadro2--pregunta{
+    position: relative;
+    top: -171vw;
+    left: 31vw;
+    width: 30vw;
+    font-family: 'regular';
+    font-size: 1.5vw;
+}
+.seccion2__Cuadro2--texto{
+    position: relative;
+    top: -169vw;
+    left: 27vw;
+    width: 46vw;
+    font-family: 'ligth';
+    font-size: 1.3vw;
+}
+.seccion2__Cuadro2--no{
+    position: relative;
+    top: -164.2vw;
+    left: 38vw;
+    width: 8vw; 
+    height: 2vw; 
+    font-family: 'regular';
+    font-size: 1.2vw;
+    border: 0.2vw solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion2__Cuadro2--si{
+    position: relative;
+    top: -166.5vw;
+    left: 50vw;
+    width: 15vw;  
+    height: 2vw;
+    font-family: 'regular';
+    font-size: 1.2vw;
+    color: white;
+    border: 0.2vw solid red;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

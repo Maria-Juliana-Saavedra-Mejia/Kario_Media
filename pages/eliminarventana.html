@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eliminar</title>
-    <link rel="stylesheet" href="../style/Eliminar.css">
+    <link rel="stylesheet" href="../style/Eliminarventana.css">
 </head>
 <body>
     <div class="Login__BarraOpciones">
         <div class="Login__BarraOpciones--añadir"><a href="../pages/Añadir.html" style="text-decoration: none; color: black;"><p>Añadir</p></a></div>
-        <div class="Login__BarraOpciones--refrescar"><a style="text-decoration: none; color: black;"><p>Refrescar</p></a></div>
+        <div class="Login__BarraOpciones--refrescar"><a href="../pages/Refrescar.html" style="text-decoration: none; color: black;"><p>Refrescar</p></a></div>
         <div class="Login__BarraOpciones--eliminar"><a href="../pages/Eliminar.html" style="text-decoration: none; color: black;"><p>Eliminar</p></a></div>
         <div class="Login__BarraOpciones--reportar"><a href="../pages/Reportar.html" style="text-decoration: none; color: black;"><p>Reportar</p></a></div>
         <div class="Login__BarraOpciones--ayuda"><a href="../pages/Ayuda.html" style="text-decoration: none; color: black;"><p>Ayuda</p></a></div>
@@ -20,7 +20,7 @@
         <a href="../pages/Perfil.html"><img class="Login__BarraOpciones--fotopedro" src="../img/fotoPedro.png"/></a>  
         <a><img class="Login__BarraOpciones--rueda" src="../img/RuedaAjustes.svg"/></a>
         <a href="../pages/Ayuda.html" ><img class="Login__BarraOpciones--pregunta" src="../img/iconoPregunta.svg"/></a>
-        <a><img class="Login__BarraOpciones--load" src="../img/load.svg"/></a>
+        <a href="../pages/Refrescar.html"><img class="Login__BarraOpciones--load" src="../img/load.svg"/></a>
         <a href="../pages/Eliminar.html"><img class="Login__BarraOpciones--basura" src="../img/trash.svg"/></a>
     
     </div>
@@ -163,6 +163,18 @@
     <input type="checkbox" class="cbox4" value="second_checkbox" />
     <input type="checkbox" class="cbox5" value="second_checkbox" />
     <input type="checkbox" class="cbox6" value="second_checkbox" />
-    <div class="boton"><a style="text-decoration: none; color: white;" href="../pages/eliminarventana.html">Eliminar Seleccionados</a></div>
+    <div class="boton"><a>Eliminar Seleccionados</a></div>
+
+    <div class="seccion2"></div>
+        <div class="seccion2__Cuadro2"></div>
+            <img class="seccion2__Cuadro2--warning"  src="../img/warning.png" />
+            <div class="seccion2__Cuadro2--pregunta">¿Está seguro de eliminar los indicadores seleccionados?</div>
+            <div class="seccion2__Cuadro2--texto">Está a punto de eliminar indicadores del panel. Esta accion no se
+                 puede deshacer  y los datos se perderán permanentemente</div>
+            <img class="seccion2__Cuadro2--warning2"  src="../img/warning.png" />
+            <div class="seccion2__Cuadro2--no"><a href="../pages/Eliminar.html" style="text-decoration: none; color: black;">No, Cancelar</a></div>
+            <div class="seccion2__Cuadro2--si"><a href="../pages/PaginaPrincipal.html" style="text-decoration: none; color: white;">Si, eliminar definitivamente</a></div>
+
+    
 </body>
 </html>

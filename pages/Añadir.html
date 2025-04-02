@@ -1,1 +1,91 @@
 <!-- Modulo de Añadir  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir</title>
+    <link rel="stylesheet" href="../style/Añadir.css">
+</head>
+<body>
+    <div class="Login__BarraOpciones">
+        <div class="Login__BarraOpciones--añadir"><a href="../pages/Añadir.html" style="text-decoration: none; color: black;"><p>Añadir</p></a></div>
+        <div class="Login__BarraOpciones--refrescar"><a style="text-decoration: none; color: black;"><p>Refrescar</p></a></div>
+        <div class="Login__BarraOpciones--eliminar"><a href="../pages/Eliminar.html" style="text-decoration: none; color: black;"><p>Eliminar</p></a></div>
+        <div class="Login__BarraOpciones--reportar"><a href="../pages/Reportar.html" style="text-decoration: none; color: black;"><p>Reportar</p></a></div>
+        <div class="Login__BarraOpciones--ayuda"><a href="../pages/Ayuda.html" style="text-decoration: none; color: black;"><p>Ayuda</p></a></div>
+        <a href="../pages/PaginaPrincipal.html"><img class="Login__BarraOpciones--logo1" src="../img/logoindexfondo.svg"/></a>
+        <a><img class="Login__BarraOpciones--bell" src="../img/Bell.svg"/></a>
+        <a href="../pages/Reportar.html"><img class="Login__BarraOpciones--bug" src="../img/bug.svg"/></a>
+        <a href="../pages/Añadir.html"><img class="Login__BarraOpciones--mas" src="../img/icono+.svg"/></a>
+        <a href="../pages/Perfil.html"><img class="Login__BarraOpciones--fotopedro" src="../img/fotoPedro.png"/></a>  
+        <a><img class="Login__BarraOpciones--rueda" src="../img/RuedaAjustes.svg"/></a>
+        <a href="../pages/Ayuda.html" ><img class="Login__BarraOpciones--pregunta" src="../img/iconoPregunta.svg"/></a>
+        <a><img class="Login__BarraOpciones--load" src="../img/load.svg"/></a>
+        <a href="../pages/Eliminar.html"><img class="Login__BarraOpciones--basura" src="../img/trash.svg"/></a>
+    
+    </div>
+    
+    <div class="Login__Textos"> 
+        <div class="Login__Textos--panel"><p>Añadir Nuevo Indicador</p></div>
+        <div class="Login__Textos--aqui"><p>Complete el formulario para añadir nuevoindicador al panel.</p></div>
+    </div>
+    <div class="Formulario">
+        <form class="Formulario__form" name="" method="post" action="./PaginaPrincipal.html">
+            <div class="Formulario__form--text1">Información de Indicador</div>
+            <div class="Formulario__form--text2">Ingrese los detalles del nuevo indicador que desea añadir al panel.</div>
+            <div class="Formulario__contenido">
+                <div class="Formulario__contenido--Nombre"><a>Nombre del Indicador</a>
+                     <input type="text" name="NombreIndicador" placeholder="E.j: Ventas Trimestrales" maxlength="50" style="font-size: 1vw; border:0.1vw solid black; height: 1.5vw;"/></div>
+                <div class="Formulario__contenido--Area">Área
+                     <select style="border-color: black; height: 1.5vw;width: 22vw; font-size: 1.2vw;background-color: white;">
+                    <option value="value1" selected>Seleccione un área</option>
+                    <option value="value2">Marketing</option>
+                    <option value="value3">Diseño</option>
+                    <option value="value4">Developers</option>
+                    <option value="value5">Gerencia</option>
+                    <option value="value4">Producción</option>
+                    </select> </div>
+                <div class="Formulario__contenido--Categoria">Categoría
+                    <select style="border-color: black; height: 1.5vw;width: 22vw; font-size: 1.2vw;background-color: white;">
+                        <option value="value1" selected>Seleccione una categoría</option>
+                        <option value="value2">Alta</option>
+                        <option value="value3">Media</option>
+                        <option value="value4">Baja</option>
+                        </select>
+                </div>
+                <div class="Formulario__contenido--Formula">Fórmula <select style="border-color: black; height: 1.5vw;width: 22vw; font-size: 1.2vw;background-color: white;">
+                    <option value="value1" selected>Seleccione una fórmula</option>
+                    <option value="value2">N/A</option>
+                    <option value="value3">Met.Ágil</option>
+                    <option value="value4">Met.Fibo</option>
+                    <option value="value5">Met.Expo</option>
+                    </select></div>
+                <div class="Formulario__contenido--Fechadeinicio">Fecha de Inicio 
+                    <input style="border:0.1vw solid black; height: 1.5vw;width: 18vw; font-size: 1.2vw;background-color: white;"type="date" name="" placeholder="" /></div>
+                <div class="Formulario__contenido--Fechaterminacion">Fecha de Terminación
+                    <input style="border:0.1vw solid black; height: 1.5vw;width: 18vw; font-size: 1.2vw;background-color: white;"type="date" name="" placeholder="" /></div>
+                <div class="Formulario__contenido--Frecuencia">Frecuencia<select style="border-color: black; height: 1.5vw;width: 22vw; font-size: 1.2vw;background-color: white;">
+                    <option value="value1" selected>Seleccione una frecuancia</option>
+                    <option value="value2">1/4</option>
+                    <option value="value3">2/4</option>
+                    <option value="value4">3/4</option>
+                    <option value="value5">4/4</option>
+                    <option value="value6">3/3</option>
+                    <option value="value7">2/3</option>
+                    <option value="value8">1/3</option>
+                    <option value="value9">1/2</option>
+                    <option value="value">2/2</option>
+                    </select></div>
+                <div class="Formulario__contenido--Cumplimiento">Cumplimiento Inicial (%)
+                    <input type="text" name="NombreIndicador" placeholder="0" maxlength="10" style="font-size: 1vw; border:0.1vw solid black; height: 1.5vw;"/></div>
+                <div class="Formulario__contenido--Descripcion">Descripción <textarea style="border:0.1vw solid black; height: 5vw;width: 48vw; font-size: 1.2vw;background-color: white;"placeholder="Describa el propósito y alcance del indicador."></textarea></div>
+            </div>
+            <div class="Guardar"><a href="../pages/PaginaPrincipal.html" style="text-decoration: none; color: white;">Guardar Indicador</a></div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
