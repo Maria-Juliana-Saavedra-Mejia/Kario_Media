@@ -331,3 +331,226 @@
         left: 3vw;
         padding: 1vw;
     }
+
+
+.box2__info--Nombre{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.3vw;
+    left: 3vw;
+    padding: 1vw;
+    top: -1vw;
+
+}
+.icono-Nombre{
+    position: relative; 
+    width: 2.5vw;
+    top: 0.5vw;
+}
+
+.box2__info--Apellido{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.3vw;
+    left: 27vw;
+    padding: 1vw;
+    top: -6vw;
+
+}
+.icono-Apellido{
+    position: relative; 
+    width: 2.5vw;
+    top: 0.5vw;
+}
+.box2__info--Correo{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.3vw;
+    left: 3vw;
+    padding: 1vw;
+    top: -4vw;
+
+}
+.icono-Correo{
+    position: relative; 
+    width: 2.5vw;
+    top: 0.5vw;
+}
+
+.box2__info--Direccion{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.3vw;
+    left: 27vw;
+    padding: 1vw;
+    top: -9vw;
+
+}
+.icono-Direccion{
+    position: relative; 
+    width: 2.5vw;
+    top: 0.5vw;
+}
+
+.box2__info--Telefono{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.3vw;
+    left: 3vw;
+    padding: 1vw;
+    top: -6vw;
+
+}
+.icono-Telefono{
+    position: relative; 
+    width: 2.5vw;
+    top: 0.5vw;
+}
+
+.box2__info--Biografia{
+    position: relative;
+    font-family: 'regular';
+    font-size: 1.3vw;
+    left: 3vw;
+    padding: 1vw;
+    top: -3vw;
+
+}
+.icono-Biografia{
+    position: relative; 
+    width: 2.5vw;
+    top: 0.5vw;
+}
+.box3__info--nombre{
+    position: relative; 
+    font-family: 'regular';
+    font-size: 1.3vw;
+    margin: 1VW;
+    border: 0.1vw solid black;
+    height: 3vw;
+    width: 20vw;
+    top: -28vw;
+    left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.box3__info--apellido{
+    position: relative; 
+    font-family: 'regular';
+    font-size: 1.3vw;
+    margin: 1VW;
+    border: 0.1vw solid black;
+    height: 3vw;
+    width: 25vw;
+    top: -32vw;
+    left: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.box3__info--email{
+    position: relative; 
+    font-family: 'regular';
+    font-size: 1.3vw;
+    margin: 1VW;
+    border: 0.1vw solid black;
+    height: 3vw;
+    width: 20vw;
+    top: -28vw;
+    left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.box3__info--Direccion{
+    position: relative; 
+    font-family: 'regular';
+    font-size: 1.3vw;
+    margin: 1VW;
+    border: 0.1vw solid black;
+    height: 3vw;
+    width: 25vw;
+    top: -32vw;
+    left: 27vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.box3__info--telefono{
+    position: relative; 
+    font-family: 'regular';
+    font-size: 1.3vw;
+    margin: 1VW;
+    border: 0.1vw solid black;
+    height: 3vw;
+    width: 20vw;
+    top: -28vw;
+    left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.box3__info--Biografia{
+    position: relative; 
+    font-family: 'regular';
+    font-size: 1.3vw;
+    margin: 1VW;
+    border: 0.1vw solid black;
+    height: 3vw;
+    width: 48vw;
+    top: -25vw;
+    left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    padding: 0.5vw;
+}
+.botonEditar{
+    position: relative;
+    top: -62vw;
+    left: 40vw;
+    border: 0.1vw solid #ff6f2c;
+    width: 13vw;
+    height: 2.8vw;
+    text-align: center;
+    font-family: 'regular';
+    font-size: 1.2vw;
+    background-color: #ff6f2c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.botonEditar:hover {
+    background-color: red;
+} 
+
