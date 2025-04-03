@@ -13,6 +13,7 @@
  body{
      background-color: white;
      overflow: hidden;
+     margin: 0px;
  }
  /*################################################################################*/
  /*############################ Barra En la parte superior ########################*/
@@ -139,3 +140,19 @@
      top: 1vw;
      left: 33vw; 
 }
+ /*#################################################################################*/
+ /*############################ Cuadro reportes ################################*/
+ /*################################################################################*/
+ .SeccionAyuda{
+    position: relative;
+    top: 5vw;
+    left: 20vw;
+    height: 48vw;
+    width: 60vw;
+    border: 0.1vw solid black; 
+    background-color: white;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+ }

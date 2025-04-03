@@ -12,6 +12,7 @@ body, html{
     background-color: black;
     max-width: 1920px;
     max-height: 1vw;
+    margin: 0px;
 }
 
 body {

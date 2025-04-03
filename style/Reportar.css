@@ -14,6 +14,7 @@
  body{
      background-color: white;
      overflow: hidden;
+     margin: 0px;
  }
  /*################################################################################*/
  /*############################ Barra En la parte superior ########################*/
@@ -336,7 +337,7 @@
     width:49vw;
     height: 6vw;
     font-family: 'regular';
-    border: 0.1vw solid black;
+    border: 0.2vw dashed #ff6f2c ;
     border-top-left-radius: 1vw;
     border-top-right-radius: 1vw;
     border-bottom-left-radius: 1vw;
