@@ -142,7 +142,7 @@
      text-align: center;
  }
  /*#################################################################################*/
- /*############################ Texto Bajo la Ba ################################*/
+ /*############################ Texto Bajo la Barra ################################*/
  /*################################################################################*/
 .formulario{
     position: relative;
@@ -156,6 +156,233 @@
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
 }
+ /*#################################################################################*/
+ /*############################ seccion superior formulario ####################*/
+ /*################################################################################*/
+
+.formulario__superior{
+    height: 8vw;
+    width: 60vw;
+    border-bottom: 0.1vw solid black; 
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    background-color: white;
+}
+.formulario__superior--logobug{
+    position: relative;
+    width: 5vw;
+    top: 1.5vw;
+    left: 1.5vw;
+}
+.formulario__superior--formularios{
+    position: relative;
+    font-family: 'regular';
+    color: black;
+    font-size: 2vw;
+    top: -3vw;
+    left: 7vw;
+}
+.formulario__superior--complete{
+    position: relative;
+    font-family: 'ligth';
+    color: black;
+    font-size: 1.5vw;
+    top: -3vw;
+    left: -8vw; 
+    text-align: center;
+}
+/*#################################################################################*/
+ /*############################ seccion media formulario ####################*/
+ /*################################################################################*/
+
+  /*############################ titulos ####################*/
+.icono-Nombre{
+    position: relative;
+    width: 3vw;
+    top: 1vw;
+    left: 0vw;
+}
+.formulario__medio--Nombre{
+    position: relative;
+    font-family: 'regular';
+    color: black;
+    font-size: 1.5vw;
+    top: 0vw;
+    left: 5vw;
+}
+.formulario__medio--Correo{
+    position: relative;
+    font-family: 'regular';
+    color: black;
+    font-size: 1.5vw;
+    top: -3.5vw;
+    left: 35vw;
+}
+.icono-Correo{
+    position: relative;
+    width: 3vw;
+    top: 1vw;
+    left: 0vw;
+}
+.formulario__medio--Asunto{
+    position: relative;
+    font-family: 'regular';
+    color: black;
+    font-size: 1.5vw;
+    top: -1vw;
+    left: 5vw;
+}
+.icono-Asunto{
+    position: relative;
+    width: 3.5vw;
+    top: 1vw;
+    left: 0vw;
+}
+.formulario__medio--Descripcion{
+    position: relative;
+    font-family: 'regular';
+    color: black;
+    font-size: 1.5vw;
+    top: 2vw;
+    left: 5vw;
+}
+.icono-Descripcion{
+    position: relative;
+    width: 3vw;
+    top: 1vw;
+    left: 0vw;
+}
+.formulario__medio--evidencia{
+    position: relative;
+    font-family: 'regular';
+    color: black;
+    font-size: 1.5vw;
+    top: 9.3vw;
+    left: 6.5vw;
+}
+.icono-evidencia{
+    position: relative;
+    width: 2vw;
+    top: 0.5vw;
+    left: -0.5vw;
+}
+
+  /*############################ cuadros ####################*/
+
+.formulario__medioCuadros--nombre{
+    position: relative;
+    top: -12.9vw;
+    left: 5.5vw;
+    width: 20vw;
+    height: 3vw;
+    border: 0.1vw solid black;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.formulario__medioCuadros--email{
+    position: relative;
+    top: -16vw;
+    left: 35vw;
+    width: 20vw;
+    height: 3vw;
+    border: 0.1vw solid black;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.formulario__medioCuadros--Asunto{
+    position: relative;
+    top: -12.9vw;
+    left: 5.5vw;
+    width: 49vw;
+    height: 3vw;
+    border: 0.1vw solid black;
+    font-family: 'regular';
+    color: rgb(90, 90, 90);
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
 
 
-
+}
+.formulario__medioCuadros--Descripcion{
+    position: relative;
+    top: -9.7vw;
+    left: 5.5vw;
+    width:49vw;
+    height: 6vw;
+    border: 0.1vw solid black;
+    font-family: 'regular';
+    color: rgb(90, 90, 90);
+    font-size: 1vw;
+    padding: 0.5vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+.formulario__medioCuadros--Evidencia{
+    position: relative;
+    top: -6.7vw;
+    left: 5.5vw;
+    width:49vw;
+    height: 6vw;
+    font-family: 'regular';
+    border: 0.1vw solid black;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;  
+}
+.icono-evidencias{
+    position: relative;
+    width: 2vw;
+    top: 0.5vw;
+    left: 25vw;
+    transform: rotate(270deg);  
+}
+.text1{
+    position: relative;
+    font-family: 'regular';
+    color: black;
+    font-size: 1vw;
+    top: 1vw;
+    left: 13vw;
+}
+.text2{
+    position: relative;
+    font-family: 'regular';
+    color: rgb(90, 90, 90);
+    font-size: 1vw;
+    top: 1vw;
+    left: 13.3vw;
+}
+/*#################################################################################*/
+ /*############################ botón enviar ####################*/
+ /*################################################################################*/
+ .botonReporte{
+    position: relative;
+    top: -44.7vw;
+    left: 45vw;
+    width:10vw;
+    height: 2vw;
+    border: 0.1vw solid #ff6f2c;
+    font-family: 'regular';
+    color: white;
+    background-color: #ff6f2c;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    text-align: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+ }
