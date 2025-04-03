@@ -1,1 +1,161 @@
-    /*CSSS de la pagina Reportar*/
+ /*################### CSS Reportar ###############################*/
+ /*################################################################################*/
+@font-face {
+    font-family: 'regular';
+     src: url(../fuentes/MYRIADPRO-REGULAR.OTF);
+ }
+ @font-face {
+     font-family: 'ligth';
+     src: url(../fuentes/MyriadPro-Light.otf);
+ }
+ /*################################################################################*/
+ /*################################################################################*/
+ /*################################################################################*/
+ body{
+     background-color: white;
+     overflow: hidden;
+ }
+ /*################################################################################*/
+ /*############################ Barra En la parte superior ########################*/
+ /*################################################################################*/
+ .Login__BarraOpciones{
+     position: relative;
+     height: 0.001vw;
+     width: 99.8vw;
+     background-color:black;
+     border: 0.001vw solid black;
+     top:4vw;
+     left:-0.4vw;
+ }
+ .Login__BarraOpciones--añadir{
+     position: relative;
+     font-family: 'regular';
+     font-size: 1.5vw;
+     color: black;
+     top: -4.5vw;
+     left: 10vw;
+ }
+ .Login__BarraOpciones--refrescar{
+     position: relative;
+     font-family: 'regular';
+     font-size: 1.5vw;
+     color: black;
+     top: -7.8vw;
+     left: 20vw;
+ }
+ .Login__BarraOpciones--eliminar{
+     position: relative;
+     font-family: 'regular';
+     font-size: 1.5vw;
+     color: black;
+     top: -11.1vw;
+     left: 31vw;
+ }
+ .Login__BarraOpciones--reportar{
+     position: relative;
+     font-family: 'regular';
+     font-size: 1.5vw;
+     color: black;
+     top: -14.4vw;
+     left: 63vw;
+ }
+ .Login__BarraOpciones--ayuda{
+     position: relative;
+     font-family: 'regular';
+     font-size: 1.5vw;
+     color: black;
+     top: -17.8vw;
+     left: 75vw;
+ }
+ .Login__BarraOpciones--logo1{
+     position: relative;
+     height: 3vw;
+     top: -22.5vw;
+     left: 47.5vw;
+ }
+ .Login__BarraOpciones--bell{
+     position: relative;
+     height: 1.5vw;
+     top: -23vw;
+     left: 86vw;
+ }
+ .Login__BarraOpciones--bug{
+     position: relative;
+     height: 1.6vw;
+     top: -23.4vw;
+     left: 55.5vw;
+ }
+ .Login__BarraOpciones--mas{
+     position: relative;
+     height: 1.6vw;
+     top: -23.4vw;
+     left: 1vw;
+ }
+ .Login__BarraOpciones--fotopedro{
+     position: relative;
+     height: 3.8vw;
+     top: -22.2vw;
+     left: 83vw;
+ }
+ .Login__BarraOpciones--rueda{
+     position: relative;
+     height: 1.5vw;
+     top: -23vw;
+     left: 74vw;
+ }
+ .Login__BarraOpciones--pregunta{
+     position: relative;
+     height: 1.6vw;
+     top: -23.4vw;
+     left: 58vw;
+ }
+ .Login__BarraOpciones--load{
+     position: relative;
+     height: 1.5vw;
+     top: -23.4vw;
+     left: 1.5vw;
+ }
+ .Login__BarraOpciones--basura{
+     position: relative;
+     height: 1.6vw;
+     top: -23.4vw;
+     left: 11.5vw;
+ }
+ /*#################################################################################*/
+ /*############################ Texto Bajo la Barra ################################*/
+ /*################################################################################*/
+ .Login__Textos--panel{
+     position: relative;
+     font-family: 'regular';
+     color: black;
+     font-size: 2.4vw;
+     top: 3vw;
+     left: 39vw;
+ }
+ .Login__Textos--aqui{
+     position: relative;
+     font-family: 'ligth';
+     color: black;
+     font-size: 1.5vw;
+     top: 1vw;
+     left: 0vw; 
+     text-align: center;
+ }
+ /*#################################################################################*/
+ /*############################ Texto Bajo la Ba ################################*/
+ /*################################################################################*/
+.formulario{
+    position: relative;
+    width: 60vw;
+    height: 43vw;
+    border: 0.1vw solid black;
+    left: 20vw;
+    border-top: 0.3vw solid #ff6f2c; 
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+
+
