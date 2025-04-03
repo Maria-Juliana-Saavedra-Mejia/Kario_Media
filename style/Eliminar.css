@@ -150,7 +150,7 @@
      position: relative;
      width: 96vw;
      height: 43vw;
-     top: 2vw;
+     top: 0vw;
      left: 1vw;
      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
  }
@@ -329,7 +329,7 @@ circle{
 /*#########################################################*/
 .cbox1{
     position: relative;
-    top: -36.5vw;
+    top: -38.5vw;
     left: -1.5vw;
     height: 1vw;
     width: 6vw;
@@ -337,7 +337,7 @@ circle{
 }
 .cbox2{
     position: relative;
-    top: -31.5vw;
+    top: -33.5vw;
     left: -8.2vw;
     height: 1vw;
     width: 6vw;
@@ -345,7 +345,7 @@ circle{
 }
 .cbox3{
     position: relative;
-    top: -26.5vw;
+    top: -28.5vw;
     left: -14.8vw;
     height: 1vw;
     width: 6vw;
@@ -353,7 +353,7 @@ circle{
 }
 .cbox4{
     position: relative;
-    top: -21.8vw;
+    top: -22.8vw;
     left: -21.4vw;
     height: 1vw;
     width: 6vw;
@@ -361,7 +361,7 @@ circle{
 }
 .cbox5{
     position: relative;
-    top: -16.9vw;
+    top: -18.9vw;
     left: -28vw;
     height: 1vw;
     width: 6vw;
@@ -369,7 +369,7 @@ circle{
 }
 .cbox6{
     position: relative;
-    top: -12vw;
+    top: -14vw;
     left: -34.6vw;
     height: 1vw;
     width: 6vw;
