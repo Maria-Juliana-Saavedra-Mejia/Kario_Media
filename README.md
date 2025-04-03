@@ -11,7 +11,7 @@ En este repositorio se encuentra el proyecto de HTML realizado por los estudiant
 | Pages |https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_HTML_S1_SaavedraMaria-VargasJuan/tree/master/pages|
 | Img |https://github.com/Maria-Juliana-Saavedra-Mejia/Proyecto_HTML_S1_SaavedraMaria-VargasJuan/tree/master/img|
 | Maquetación |https://www.figma.com/design/J83kkZIFkWVFLWQ6q3vyjS/Untitled?node-id=0-1&p=f&t=YmrUnIf6KGlhEy1o-0|
-| Link Pagina |https://maria-juliana-saavedra-mejia.github.io/Proyecto_HTML_S1_SaavedraMaria-VargasJuan/pages/Perfil.html|
+| Link Pagina |https://maria-juliana-saavedra-mejia.github.io/Proyecto_HTML_S1_SaavedraMaria-VargasJuan/|
 
 
 
