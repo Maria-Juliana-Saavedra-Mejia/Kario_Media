@@ -189,4 +189,68 @@ body {
     opacity: 1;
     animation-duration: 7s;
 }
-
+@media (width: 430px) and (height: 932px) {
+    .Login__background--Logo {
+        position: relative;
+        top: -550px;
+        width: 430px;
+        height: 200px;
+        left: 0px;
+        
+    }
+    .Login__background--BackgroundImage{
+        width: 430px;
+        height: 932px; 
+    }
+    .Login__frontpart--section1 {
+        width: 390px;
+        left: 15px;
+        height: 830px;
+        top: -1100px;
+        border-radius: 30px;
+      }
+    .Login__frontpart--LogoK{
+        top: -1890px;
+        height: 200px;
+        left: 130px;
+    }
+    .Login__frontpart--ingresa {
+        top: -1880px;
+        font-size: 20px;
+        height: 100px ;
+        width: 300px;
+        left: 60px;
+      }
+    .Login__frontpart--registro{
+        top: -1900px;
+        height: 200px;
+        width: 500px;
+        font-size: 20px;
+        left: 30px;
+     
+    }
+   .usuario{
+    width: 340px;
+    height: 30px;
+   }
+   .contraseña{
+    width: 340px ;
+    height: 30px;
+   }
+.Login__frontpart--ingresar{
+    top: -1870px;
+    width: 250px;
+    height: 70px;
+    left: 90px;
+}
+.Login__frontpart--ingresarTexto{
+    font-size: 30px;
+}
+.Login__frontpart--problemas{
+    font-size: 15px;
+    top: -1850px;
+    width: 350px ;
+    left: 35px;
+    position: relative;
+}
+}
