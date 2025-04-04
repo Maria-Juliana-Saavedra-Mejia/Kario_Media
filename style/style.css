@@ -14,7 +14,9 @@ body, html{
     max-height: 1vw;
     margin: 0px;
 }
-
+html{
+margin: 0px;
+}
 body {
     overflow: hidden;
 }
@@ -199,8 +201,8 @@ body {
         
     }
     .Login__background--BackgroundImage{
-        width: 430px;
-        height: 932px; 
+        width: 500px;
+        height: 1000px; 
     }
     .Login__frontpart--section1 {
         width: 390px;

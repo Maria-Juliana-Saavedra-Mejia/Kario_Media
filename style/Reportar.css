@@ -387,3 +387,127 @@
     border-bottom-left-radius: 1vw;
     border-bottom-right-radius: 1vw;
  }
+ @media (width: 430px) and (height: 932px) {
+    .Login__Textos--panel{
+        font-size: 20px;
+        left: 120px ;
+    }
+    .Login__Textos--aqui{
+        font-size: 10px;
+    }
+    .Login{
+        font-size: 50px;
+    }
+    .formulario{
+        height: 800px;
+        width: 400px;
+        left: 15px;
+    }
+    .formulario__superior--formularios{
+        font-size: 20px;
+        height: 10px;
+        width: 300px;
+        left: 50px;
+        top: -40px;
+    }
+    .formulario__superior--complete{
+        font-size: 10px;
+        left: 2px;
+        height: 30px;
+        width: 300px;
+        top: -30px;
+    }
+    .botonReporte{
+        left: 100px;
+        height: 30px;
+        width: 200px;
+        top: 170px;
+        font-size: 20px;
+    }
+    .formulario__medio--Nombre{
+        top: 15px;
+        font-size: 20px;
+    }
+    .icono-Nombre{
+        width: 30px;
+    }
+    .formulario__medioCuadros--nombre{
+        height: 20px;
+        width: 300px;
+        top: -110px;
+    }
+    .icono-Correo{
+        width: 30px;
+        
+    }
+    .formulario__medio--Correo{
+        font-size: 20px;
+        height: 20px;
+        width: 10px;
+        top: 40px;
+        width: 250px;
+        left: 27px;
+    }
+    .formulario__medioCuadros--email{
+        height: 20px;
+        width: 300px;
+        top: -70px;
+        left: 25px;
+    }
+    .formulario__superior--logobug{
+        height: 40px;
+        width: 40px;
+    }
+    .formulario__superior{
+        height: 50px;
+        width: 60px;
+    }
+    .icono-Asunto{
+        top: 10px;
+        width: 50px;   
+    }
+    .formulario__medio--Asunto{
+        font-size: 20px;
+        top:80px;
+    }
+    .formulario__medioCuadros--Asunto{
+        height: 20px;
+        width: 300px;
+        top: -7px;
+        left: 25px;
+    }
+    .icono-Descripcion{
+        top: 10px;
+        width: 40px;
+    }
+    .formulario__medio--Descripcion{
+        font-size: 20px;
+        top: 130px;
+    }
+    .formulario__medioCuadros--Descripcion{
+        height: 200px;
+        width: 300px;
+        top: 70px;
+        left: 25px;
+    }
+    .formulario__medioCuadros--Evidencia{
+        top: 100px;
+        left: 40px;
+        height: 90px;
+        width: 300px;
+    }
+    .icono-evidencias{
+        width: 30px;
+        left: 120px;
+    }
+    .text1{
+        font-size: 12px;
+        left: 0px;
+        width: 300px;
+    }
+    .text2{
+        font-size: 12px;
+        left: 0px;
+        width: 300px;
+    }
+ }

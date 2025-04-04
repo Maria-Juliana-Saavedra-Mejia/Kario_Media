@@ -607,3 +607,54 @@ circle{
     animation: rellenar 1s linear forwards;
     animation-delay: 7s;
 }
+
+@media (width: 430px) and (height: 932px) /*MEDIA INICIO DE SECCIÓN*/{
+    .Login__background--Logo{
+        top: -590px;
+        height: 200px;
+        width: 200px;
+        left: 120px;
+    }
+    .Login__background--BackgroundImage {
+        width: 440px;
+        height: 1000px;
+        position: relative;
+    }
+    .Login__frontpart--section1 {
+        top: -1000px;
+        height: 600px;
+        width: 370px;
+        left: 30px;
+        border-radius: 30px;
+    }
+    .Login__frontpart--LogoK{
+        top: -1580px;
+        height: 100px;
+        width: 100px;
+        left: 170px;
+    }
+    .Login__frontpart--bienvenido{
+        top: -1580px;
+        font-size: 30px;
+        width: 250px;
+        left: 90px;
+    }
+    .Login__frontpart--fotoPerfi{
+        top: -1320px;
+        height: 150px;
+        width: 160px;
+        left: 35px;
+    }
+    .Login__frontpart--nombre{
+        top: -1440px;
+        font-size: 30px;
+        left: 70px;
+        width: 300px;
+    }
+    .Login__frontpart--usuario{
+        top: -1450px;
+        font-size: 25px;
+        left: 70px;
+        width: 300px;
+    }
+}

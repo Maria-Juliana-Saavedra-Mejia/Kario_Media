@@ -250,3 +250,78 @@
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
  }
+ @media (width: 430px) and (height: 932px){
+   .Login__Textos--panel{
+    font-size: 30px;
+    left: 60px;
+   } 
+   .Login__Textos--aqui{
+    font-size: 15px;
+    left: 25px;
+   }
+   .Formulario__form{
+    height: 700px;
+    left: 40px;
+    width: 350px;
+   }
+   .Formulario__form--text1{
+    font-size: 20px;
+   }
+   .Formulario__form--text2{
+    font-size: 10px;
+   }
+   .Formulario__contenido{
+    font-size: 15px;
+    width: 340px;  
+    height: 500px;
+   }
+   .Guardar{
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    left: 100px;
+   }
+   .input{
+    width: 20px;
+   }
+
+
+   .name{
+    width: 100px;
+    height: 300px;
+   }
+
+   .Formulario__contenido--Area{
+    background-color: red;
+   }
+
+   .Formulario__contenido--Categoria{
+    background-color: green;
+
+   }
+
+   .Formulario__contenido--Formula{
+    background-color: yellow;
+   }
+
+   .Formulario__contenido--Fechadeinicio{
+    background-color: orange;
+   }
+
+   .Formulario__contenido--Fechaterminacion{
+    background-color: blue;
+   }
+
+   .Formulario__contenido--Frecuencia{
+    background-color: purple;
+   }
+
+   .Formulario__contenido--Cumplimiento{
+    background-color: aqua;
+   }
+
+   .Formulario__contenido--Descripcion{
+    background-color: aquamarine;
+   }
+
+ }
