@@ -291,37 +291,4 @@
     height: 300px;
    }
 
-   .Formulario__contenido--Area{
-    background-color: red;
-   }
-
-   .Formulario__contenido--Categoria{
-    background-color: green;
-
-   }
-
-   .Formulario__contenido--Formula{
-    background-color: yellow;
-   }
-
-   .Formulario__contenido--Fechadeinicio{
-    background-color: orange;
-   }
-
-   .Formulario__contenido--Fechaterminacion{
-    background-color: blue;
-   }
-
-   .Formulario__contenido--Frecuencia{
-    background-color: purple;
-   }
-
-   .Formulario__contenido--Cumplimiento{
-    background-color: aqua;
-   }
-
-   .Formulario__contenido--Descripcion{
-    background-color: aquamarine;
-   }
-
  }
